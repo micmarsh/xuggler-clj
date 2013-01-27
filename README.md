@@ -4,7 +4,12 @@ A Clojure wrapper for Xuggler (https://github.com/xuggle/xuggle-xuggler)
 
 ## Usage
 
-FIXME
+```clojure
+;clojar coming soon!
+
+(:use [xuggler.core :only [convert]])
+(convert "input.flv" "output.mp4")
+```
 
 ## License
 
