@@ -6,8 +6,9 @@ A Clojure wrapper for Xuggler (https://github.com/xuggle/xuggle-xuggler)
 
 ```clojure
 ;clojar coming soon!
+(ns your.namespace
+    (:use [xuggler.core :only [convert]]))
 
-(:use [xuggler.core :only [convert]])
 (convert "input.flv" "output.mp4")
 ```
 
