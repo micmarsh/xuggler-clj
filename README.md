@@ -26,4 +26,8 @@ Copyright © 2013 Michael Marsh
 
 Distributed under the Eclipse Public License, the same as Clojure.
 
-Also contains GPL code from Xuggler, so shit's all fucked up and maybe illegal. Research later.
+Also contains GPL code from Xuggler, so shit's all fucked up and probably illegal.
+
+## Todo
+
+Compile Xuggler yourself to make it LGPL (see above), then set up your own Maven repo.
