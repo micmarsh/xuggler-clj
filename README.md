@@ -6,7 +6,7 @@ A Clojure wrapper for Xuggler (https://github.com/xuggle/xuggle-xuggler)
 
 Add to a project:
 ```clojure
-[xuggler "0.1.0"]
+[xuggler "0.1.1"]
 ```
 Or use in the lein repl:
 ```clojure
