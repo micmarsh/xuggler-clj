@@ -2,17 +2,17 @@
 (import [com.xuggle.mediatool
         ToolFactory IMediaReader IMediaWriter ])
 
+(defn- add-debug [writer]
+  (.addListener writer
+    (ToolFactory/makeDebugListener )))
+
 (defn convert [from to & options]
     (let [reader (ToolFactory/makeReader from)
           writer (ToolFactory/makeWriter to, reader)
-          ;optional adding of debugging output to writer
-          option-map (apply merge (cons {} options))
-          debug (fn [writer] (.addListener writer
-            (ToolFactory/makeDebugListener )))]
-
+          option-map (apply merge (cons {} options))]
 
           (.addListener reader writer)
-          (if (option-map :debug) (debug writer))
+          (if (option-map :debug) (add-debug writer))
           (while (= nil (.readPacket reader)))))
 
 (defn -main [& args]
