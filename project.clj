@@ -1,6 +1,6 @@
-(defproject xuggler "0.1.0-SNAPSHOT"
-    :description "FIXME: write description"
-    :url "http://example.com/FIXME"
+(defproject xuggler "0.1.0"
+    :description "A clojure wrapper of the Xuggler library, possibly illegal"
+    :url "https://github.com/micmarsh/xuggler-clj"
     :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
     :main xuggler.core
