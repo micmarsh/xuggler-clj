@@ -1,4 +1,4 @@
-# xuggler
+# xuggler-clj
 
 A Clojure wrapper for Xuggler (https://github.com/xuggle/xuggle-xuggler)
 
