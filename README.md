@@ -2,6 +2,9 @@
 
 A Clojure wrapper for Xuggler (https://github.com/xuggle/xuggle-xuggler)
 
+## WARNING
+This was one of the first bits of Clojure code I've ever written. You've been warned.
+
 ## Usage
 
 Add to a project:
